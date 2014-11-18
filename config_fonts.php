@@ -92,6 +92,18 @@ starting at 1, as they appear in the .ttc file e.g.
 */
 
 $this->fontdata = array(
+    "parisineregular" => array(
+        'R' => "parisine-regular-webfont.ttf",
+        'B' => "parisine-regular-webfont.ttf",
+        //'I' => "DejaVuSansCondensed-Oblique.ttf",
+        //'BI' => "DejaVuSansCondensed-BoldOblique.ttf",
+    ),
+    "parisinebold" => array(
+        'R' => "parisine-bold-webfont.ttf",
+        'B' => "parisine-bold-webfont.ttf",
+        //'I' => "DejaVuSansCondensed-Oblique.ttf",
+        //'BI' => "DejaVuSansCondensed-BoldOblique.ttf",
+    ),
 	"dejavusanscondensed" => array(
 		'R' => "DejaVuSansCondensed.ttf",
 		'B' => "DejaVuSansCondensed-Bold.ttf",
